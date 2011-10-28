@@ -70,13 +70,13 @@
   .bg_red { background-color: #f00 !important;}
   .bg_blue { background-color: #00f !important;}
   .bg_green { background-color: #0f0 !important;}
-  
+
   /**
    * @visualize semantic structure
-   * 
+   *
    * Many thanks to Tomas Caspers for some ideas
    */
-   
+
   div[id] { padding: 0 !important; margin: 2px; border: 1px #000 solid !important; }
   div[id]:before {
 	display:block;
@@ -132,12 +132,12 @@
   h4:before	{ content: "[h4] "; }
   h5:before	{ content: "[h5] "; }
   h6:before	{ content: "[h6] "; }
-  
+
   a:hover:before { content:	" ( href='" attr(href) "' ) "; }
   a:hover:after { content: " [ title='"attr(title)"' ] "; }
 
   img:after	{ content:" ( alt='" attr(alt)"' ) "; }
-  
+
   address, blockquote, dl, fieldset, form, h1, h2, h3, h4, ol, p, pre, ul	{
 	border:	1px dotted #888;
 	margin: 2px;
@@ -147,7 +147,7 @@
 
   /**
    * @visualize inline elements
-   * 
+   *
    * Many thanks to Tomas Caspers for some ideas
    */
 

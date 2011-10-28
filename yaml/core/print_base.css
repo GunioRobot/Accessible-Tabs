@@ -48,7 +48,7 @@
   /* (en) make .print class visible */
   /* (de) .print-Klasse sichtbar schalten */
   .print { position: static; top: 0; left: 0; height: auto; width: auto; }
-  
+
   /*------------------------------------------------------------------------------------------------------*/
 
   /**
@@ -68,12 +68,12 @@
 
   /* (en) Format acronyms and abbreviations for print*/
   /* (de) Auszeichnung von Abkürzungen */
-  abbr[title]:after, 
+  abbr[title]:after,
   acronym[title]:after { content: '(' attr(title) ')'; }
 
   /* (en) Disable background graphics of links  */
   /* (de) Abschalten evlt. vorhandener Hintergrundgrafiken zur Linkkennzeichnung */
-  #page a[href^="http:"], 
+  #page a[href^="http:"],
   #page a[href^="https:"] { padding-left: 0; background-image: none; }
 
   /* (en) Enable URL output in print layout */
@@ -113,8 +113,8 @@
    * @css-for   all browsers
    * @valid     yes
    */
-  
+
   .floatbox,
-  .subcolumns, 
+  .subcolumns,
   .subcolums_oldgecko { overflow:visible; display: table; }
 }

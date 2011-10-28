@@ -41,7 +41,7 @@
   #header {
     color: #000;
     background: #fff repeat-x top left;
-    padding: 45px 2em 1em 20px; 
+    padding: 45px 2em 1em 20px;
   }
 
   #topnav { color: #aaa; background: transparent; }
@@ -53,8 +53,8 @@
 
   #main { background: #fff;padding:10px 0; }
 
-  #footer { 
-    color:#666; 
+  #footer {
+    color:#666;
     background: #f9f9f9;
     padding: 15px;
     border-top: 5px #efefef solid;
@@ -97,16 +97,16 @@
   #nav_main { background: #efefef }
   #nav_main ul { margin-left: 10px }
   #nav_main ul li { line-height: 1.2em}
-  
+
   #nav_main ul li a,
   #nav_main ul li strong { color: #666; font-weight: normal; padding: 0.5em 0.8em 0.5em 0.8em;}
-  
+
   #nav_main ul li a:focus,
   #nav_main ul li a:hover,
   #nav_main ul li a:active  { background: #182E7A; color: #fff }
-  
+
   #nav_main ul li#current { background: transparent }
-  
+
   #nav_main ul li#current strong,
   #nav_main ul li#current a,
   #nav_main ul li#current a:focus,

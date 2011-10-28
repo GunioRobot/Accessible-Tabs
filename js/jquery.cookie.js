@@ -7,7 +7,7 @@
  * http://www.gnu.org/licenses/gpl.html
  *
  */
- 
+
 /**
  * Create a cookie with the given name and value and other optional parameters.
  *
@@ -38,7 +38,7 @@
  * @cat Plugins/Cookie
  * @author Klaus Hartl/klaus.hartl@stilbuero.de
  */
- 
+
 /**
  * Get the value of a cookie with the given name.
  *

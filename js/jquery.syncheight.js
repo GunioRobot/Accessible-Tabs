@@ -5,7 +5,7 @@
  *
  * http://blog.ginader.de/dev/syncheight/
  *
- * Copyright (c) 2007-2009 
+ * Copyright (c) 2007-2009
  * Dirk Ginader (ginader.de)
  * Dirk Jesse (yaml.de)
  * Dual licensed under the MIT and GPL licenses:
@@ -26,13 +26,13 @@
 			updateOnResize: false	// re-sync element heights after a browser resize event (useful in flexible layouts)
 		};
 		var options = $.extend(defaults, config);
-		
+
 		var e = this;
-		
+
 		var max = 0;
 		var browser_id = 0;
 		var property = [
-			// To avoid content overflow in synchronised boxes on font scaling, we 
+			// To avoid content overflow in synchronised boxes on font scaling, we
 			// use 'min-height' property for modern browsers ...
 			['min-height','0px'],
 			// and 'height' property for Internet Explorer.
@@ -43,7 +43,7 @@
 		if($.browser.msie && $.browser.version < 7){
 			browser_id = 1;
 		}
-		
+
 		// get maximum element height ...
 		$(this).each(function() {
 			// fallback to auto height before height check ...
@@ -53,18 +53,18 @@
 			   max = val;
 			}
 		});
-		
+
 		// set synchronized element height ...
  		$(this).each(function() {
   			$(this).css(property[browser_id][0],max+'px');
 		});
-		
+
 		// optional sync refresh on resize event ...
 		if (options.updateOnResize == true) {
-			$(window).resize(function(){ 
+			$(window).resize(function(){
 				$(e).syncHeight();
 			});
 		}
 		return this;
-	};	
+	};
 })(jQuery);

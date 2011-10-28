@@ -27,6 +27,6 @@
 {
   #col1 { display:none; }
   #col2 { display:none; }
-  
+
   #col3, #col3_content { width: 100%; margin:0; padding: 0; border:0; }
 }
